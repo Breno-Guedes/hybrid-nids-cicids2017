@@ -117,9 +117,3 @@ realtime_detector/   captura e inferência local
 dashboard/            console Streamlit
 dataset/CIC-IDS2017/ benchmark local
 ```
-
-## Segurança
-
-Não versionar `kaggle.json`, tokens, chaves ou credenciais. Prefira variáveis
-de ambiente e arquivos fora do diretório do projeto. Antes de compartilhar
-logs, remova endereços IP e outros dados operacionais sensíveis.
